@@ -17,8 +17,6 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: AddNewAlarmScreen(
         titlename: "Create New Alarm",
-        //akesh
-        //aswin
       ),
     );
   }
