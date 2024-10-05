@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(),
       debugShowCheckedModeBanner: false,
       home: AddNewAlarmScreen(
-        titlename: "Create New Alarms",
+        titlename: "Create New Alarm",
       ),
     );
   }
