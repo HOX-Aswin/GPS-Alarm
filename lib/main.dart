@@ -8,16 +8,14 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-//akesh
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'GPS Alarm',
       theme: ThemeData(),
       debugShowCheckedModeBanner: false,
-      home: AddNewAlarmScreen(
+      home: const AddNewAlarmScreen(
         titlename: "Create New Alarm",
-        //aswin
       ),
     );
   }
